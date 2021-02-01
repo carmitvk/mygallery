@@ -9,8 +9,7 @@ function renderProjs() {
     var projs = getProjs();
     var strHTMLs = projs.map(function (proj) {
         var OneRow =
-        `<div class="row one-row" onclick="openModal('${proj.id}')">
-        <div class="col-md-4 col-sm-6 portfolio-item my-proj">
+        `<div class="col-md-4 col-sm-6 portfolio-item my-proj" onclick="openModal('${proj.id}')">
           <a class="portfolio-link" data-toggle="modal" > 
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -23,7 +22,6 @@ function renderProjs() {
             <h4>${proj.name}</h4>
             <p class="text-dark">${proj.title}</p>
           </div>
-        </div>
       </div>`
 
         return OneRow;

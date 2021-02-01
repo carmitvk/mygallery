@@ -266,7 +266,7 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(58, 94, 68, 0.9);
+    background: rgba(152, 204, 177, 0.9);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
@@ -279,7 +279,7 @@ header.masthead .intro-text .intro-heading {
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
@@ -787,7 +787,7 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 .my-proj{
-    background-color: rgb(103, 158, 151);
+    background-color: rgb(203, 224, 222);
     height: 30vh;
     width: 33vw;
     border-radius: 12px;
@@ -803,19 +803,15 @@ fieldset[disabled] .btn-xl:hover {
     margin-top: 2px !important;
 
 }
-.container-rows{
-    /* display:flex;
-    flex-direction: row; */
-}
-
-.one-row {
-    /* margin-right: 0;
-    flex-basis: 33%; */
-}
 
 footer {
     background-color: black;
     text-align: center;
     color: lightblue;
     margin-top: 10px;
+  }
+
+  .img-fluid{
+      height: 120px;
+      text-align: center;
   }
