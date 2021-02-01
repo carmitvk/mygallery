@@ -28,28 +28,31 @@ function renderProjs() {
 
         return OneRow;
     }).join('')
-    document.querySelector('.my-row').innerHTML = strHTMLs;
-
-
-
-
-
-
-    
+    document.querySelector('.my-row').innerHTML = strHTMLs;  
 }
 
 function openModal(projId){
-
-    var proj = getProjById(projId)
-
-    // document.querySelector('.portfolio-modal id').textContent = proj.id
+    var proj = getProjById(projId);
+    // $('#my-modal-id').id = proj.id;
+    console.log('HHHHIII',projId,proj.gameUrl)
     document.querySelector('.portfolio-modal h2').textContent = proj.name;
     document.querySelector('.portfolio-modal .item-intro').textContent = proj.title;
     document.querySelector('.portfolio-modal .img-fluid').src = proj.url;
     document.querySelector('.portfolio-modal .my-desc').textContent = proj.desc;
     document.querySelector('.my-date').textContent = proj.publishedAt;
     document.querySelector('.my-lables').textContent = proj.lables;
-    // $('.portfolio-modal').show();
+
+
+    
+    $('#open-game-id').click(function () {
+        console.log(projId,proj)
+        window.open(proj.gameUrl);
+        })
+        
     $('#my-modal-id').modal('show');
+
+
+
+
 }
 

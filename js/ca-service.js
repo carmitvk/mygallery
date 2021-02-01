@@ -1,9 +1,9 @@
 'use strict';
 
 var gProjsData = [
-    { id: 'numbers', desc: 'learning the sequence of numbers', lables: [ 'learning sequence of numbers','numbers', 'educational games'] },
-    { id: 'ball-board', desc: 'catch balls', lables: ['ball-board', 'ball', 'fun games'] },
-    { id: 'minesweeper', desc: 'open all cells, watch out of mines', lables: ['fun games', 'mines', 'mines sweeper'] }
+    { id: 'numbers', desc: 'learning the sequence of numbers', lables: ['learning sequence of numbers', 'numbers', 'educational games'], gameUrl: 'bbb' },
+    { id: 'ball-board', desc: 'catch balls', lables: ['ball-board', 'ball', 'fun games'], gameUrl: 'aaa' },
+    { id: 'minesweeper', desc: 'open all cells, watch out of mines', lables: ['fun games', 'mines', 'mines sweeper'], gameUrl: ' https://carmitvk.github.io/sprint1/.' }
 ];
 
 var gProjs;
@@ -17,7 +17,7 @@ function createModals() {
 
     for (var i = 0; i < gProjsData.length; i++) {
         var projData = gProjsData[i]
-        projs.push(_createProj(projData.id, projData.desc, projData.labels));
+        projs.push(_createProj(projData));
     }
     // }
     gProjs = projs;
@@ -25,18 +25,19 @@ function createModals() {
 }
 
 
-function _createProj(id, desc, lales) {
+function _createProj(projData) {
 
     var date = new Date();
     var modal =
     {
-        id: id,
-        name: id,
-        title: id + 'Game',
-        desc: desc,
-        url: 'img/portfolio/' + id + '.jpg',
+        id: projData.id,
+        name: projData.id,
+        title: projData.id + ' Game',
+        desc: projData.desc,
+        url: 'img/portfolio/' + projData.id + '.jpg',
         publishedAt: date,
-        labels: lales
+        labels: projData.lales,
+        gameUrl: projData.gameUrl
     };
     return modal;
 }
