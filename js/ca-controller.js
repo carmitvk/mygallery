@@ -33,26 +33,17 @@ function renderProjs() {
 
 function openModal(projId){
     var proj = getProjById(projId);
-    // $('#my-modal-id').id = proj.id;
-    console.log('HHHHIII',projId,proj.gameUrl)
     document.querySelector('.portfolio-modal h2').textContent = proj.name;
     document.querySelector('.portfolio-modal .item-intro').textContent = proj.title;
     document.querySelector('.portfolio-modal .img-fluid').src = proj.url;
     document.querySelector('.portfolio-modal .my-desc').textContent = proj.desc;
     document.querySelector('.my-date').textContent = proj.publishedAt;
     document.querySelector('.my-lables').textContent = proj.lables;
-
-
     
     $('#open-game-id').click(function () {
-        console.log(projId,proj)
         window.open(proj.gameUrl);
         })
-        
+
     $('#my-modal-id').modal('show');
-
-
-
-
 }
 

@@ -31,13 +31,27 @@
   </div>
 
   <aside class="offcanvas-aside">
-
   <!-- Contact -->
   <section id="contact">
-    <h4>Contact Me</h4>
-  </section>
+    <!-- <h4>Contact Me</h4> -->
+    <form>
+      <div class="mb-3">
+        <label for="input-email" class="form-label">Email:</label>
+        <input type="email" class="form-control" placeholder="name@example.com" value="carmit.vk@gmail.com" id="input-email" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="input-subject" class="form-label">Subject:</label>
+        <input type="text" class="form-control" placeholder="Type subject here" id="input-subject">
+      </div>
+      <label for="msg-body" class="form-label">Email content:</label>
+      <input type="text" class="form-control" placeholder="Type message text here" id="msg-body">
+    </div>
     
-  </aside>
+      <button type="button" id="my-email-submit" class="btn btn-primary mt-5 Success">Submit</button>
+    </form>
+  </section>
+
+</aside>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -239,6 +253,11 @@
       </div>
     </div>
   </div>
+
+
+
+  
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
