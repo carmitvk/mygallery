@@ -8,7 +8,6 @@ var gProjsData = [
 
 var gProjs;
 createModals();
-console.log(gProjs);
 
 function createModals() {
     // var projs = loadFromStorage(KEY)

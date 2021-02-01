@@ -47,3 +47,8 @@ function openModal(projId){
     $('#my-modal-id').modal('show');
 }
 
+function onOpenCV(){
+    console.log('HIII');
+    window.open("cv/cv.pdf");
+}
+

@@ -1,18 +1,19 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #31777c
 }
 p {
     line-height: 1.75;
 }
 a {
-    color: #fed136;
+    color:rgb(37, 139, 107);
 }
 a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #fec503;
+    color: #31777c;
 }
 h1,
 h2,
@@ -46,11 +47,11 @@ section h3.section-subheading {
     }
 }
 ::-moz-selection {
-    background: #fed136;
+    background:rgb(37, 139, 107);
     text-shadow: none;
 }
 ::selection {
-    background: #fed136;
+    background:rgb(37, 139, 107);
     text-shadow: none;
 }
 img::selection {
@@ -60,7 +61,7 @@ img::-moz-selection {
     background: transparent;
 }
 body {
-    -webkit-tap-highlight-color: #fed136;
+    -webkit-tap-highlight-color:rgb(37, 139, 107);
 }
 .offcanvas-btn {
     z-index: 100000;
@@ -69,7 +70,7 @@ body {
     right: 3%;
     height: 50px;
     width: 50px;
-    background: #e2cb36;
+    background: #a9d3b0;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -130,19 +131,19 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color:rgb(37, 139, 107);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 #mainNav .navbar-brand {
-    color: #fed136;
+    color:rgb(37, 139, 107);
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 #mainNav .navbar-brand.active,
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #fec503;
+    color: rgb(136, 238, 206);
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
@@ -155,7 +156,7 @@ body {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color:rgb(37, 139, 107);
 }
 @media (min-width: 992px) {
     
@@ -243,6 +244,7 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    color: #f1f1f1;
 }
 
 #portfolio .portfolio-item {
@@ -450,7 +452,7 @@ header.masthead .intro-text .intro-heading {
     color: white;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color:rgb(37, 139, 107);
 }
 .timeline > li .timeline-image h4 {
     font-size: 10px;
@@ -624,7 +626,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #fed136;
+    background-color:rgb(37, 139, 107);
 }
 .flex-align-center {
     display: flex;
@@ -637,8 +639,8 @@ ul.social-buttons li a:hover {
 .btn-primary {
     font-weight: 700;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:rgb(37, 139, 107);
+    background-color:rgb(37, 139, 107);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -687,11 +689,11 @@ ul.social-buttons li a:hover {
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:rgb(37, 139, 107);
+    background-color:rgb(37, 139, 107);
 }
 .btn-primary .badge {
-    color: #fed136;
+    color:rgb(37, 139, 107);
     background-color: white;
 }
 .btn-xl {
@@ -700,8 +702,8 @@ fieldset[disabled] .btn-primary:hover {
     padding: 20px 40px;
     border-radius: 3px;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:rgb(37, 139, 107);
+    background-color:rgb(37, 139, 107);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -750,11 +752,11 @@ fieldset[disabled] .btn-primary:hover {
 fieldset[disabled] .btn-xl.focus,
 fieldset[disabled] .btn-xl:focus,
 fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:rgb(37, 139, 107);
+    background-color:rgb(37, 139, 107);
 }
 .btn-xl .badge {
-    color: #fed136;
+    color:rgb(37, 139, 107);
     background-color: white;
 }
 
@@ -770,10 +772,14 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 #my-email-submit{
-    background-color: rgb(12, 44, 34);
+    background-color: rgb(50, 128, 103);
     border: 1px solid white;
 }
 
 .offcanvas-btn{
     background-color: rgb(133, 202, 180);
+}
+
+.my-hubbies{
+    background-color: rgb(37, 139, 107) !important;
 }
