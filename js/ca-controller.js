@@ -9,8 +9,8 @@ function renderProjs() {
     var projs = getProjs();
     var strHTMLs = projs.map(function (proj) {
         var OneRow =
-        `<div class="row" onclick="openModal('${proj.id}')">
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        `<div class="row one-row" onclick="openModal('${proj.id}')">
+        <div class="col-md-4 col-sm-6 portfolio-item my-proj">
           <a class="portfolio-link" data-toggle="modal" > 
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -21,14 +21,14 @@ function renderProjs() {
           </a>
           <div class="portfolio-caption">
             <h4>${proj.name}</h4>
-            <p class="text-muted">${proj.title}</p>
+            <p class="text-dark">${proj.title}</p>
           </div>
         </div>
       </div>`
 
         return OneRow;
     }).join('')
-    document.querySelector('.my-row').innerHTML = strHTMLs;  
+    document.querySelector('.my-rows').innerHTML = strHTMLs;  
 }
 
 function openModal(projId){

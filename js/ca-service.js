@@ -3,7 +3,9 @@
 var gProjsData = [
     { id: 'numbers', desc: 'learning the sequence of numbers', lables: ['learning sequence of numbers', 'numbers', 'educational games'], gameUrl: 'bbb' },
     { id: 'ball-board', desc: 'catch balls', lables: ['ball-board', 'ball', 'fun games'], gameUrl: 'aaa' },
-    { id: 'minesweeper', desc: 'open all cells, watch out of mines', lables: ['fun games', 'mines', 'mines sweeper'], gameUrl: ' https://carmitvk.github.io/sprint1/.' }
+    { id: 'minesweeper', desc: 'open all cells, watch out of mines', lables: ['fun games', 'mines', 'mines sweeper'], gameUrl: ' https://carmitvk.github.io/sprint1/.' },
+    { id: 'packman', desc: 'game of quick moves', lables: ['packman', 'fun games'], gameUrl: 'bbb' },
+    { id: 'shopBooks', desc: 'manage a books shop', lables: ['shopBooks', 'fun games', 'books'], gameUrl: 'bbb' }
 ];
 
 var gProjs;
