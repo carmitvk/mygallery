@@ -1,7 +1,9 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #97c4c7
+    /* background-color: #97c4c7 */
+    background-image: 'img/portfolio/computer2.jpg';
+    background-attachment:fixed;
 }
 p {
     line-height: 1.75;
@@ -125,13 +127,13 @@ body {
     z-index: 5;
 }
 #mainNav .navbar-toggler {
-    font-size: 12px;
+    font-size: 14px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: rgb(95, 156, 137);
     border: 0;
-    background-color:rgb(37, 139, 107);
+    background-color:white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -144,6 +146,7 @@ body {
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
     color: rgb(190, 231, 218);
+    font-size: 40px;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
@@ -219,6 +222,7 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 @media (min-width: 768px) {
     header.masthead .intro-text {

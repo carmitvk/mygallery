@@ -1,3 +1,6 @@
+"use strict";
+
+$(initCa);
 
 function initCa(){
     renderProjs()
