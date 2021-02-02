@@ -787,11 +787,12 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 .my-proj{
-    background-color: rgb(203, 224, 222);
-    height: 30vh;
-    width: 33vw;
+    background-color: rgb(231, 238, 237);
+    height: 100%;
+    /* width: 33vw; */
     border-radius: 12px;
     align-items: center;
+    border: 1px solid gray;
     /* display:flex;
     flex-wrap: nowrap; */
 }
@@ -812,6 +813,8 @@ footer {
   }
 
   .img-fluid{
+
       height: 120px;
       text-align: center;
+      margin: auto;      
   }

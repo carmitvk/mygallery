@@ -12,23 +12,19 @@ var gProjs;
 createModals();
 
 function createModals() {
-    // var projs = loadFromStorage(KEY)
-    // if (!projs || !projs.length) {
     var projs = [];
-
     for (var i = 0; i < gProjsData.length; i++) {
         var projData = gProjsData[i]
         projs.push(_createProj(projData));
     }
-    // }
     gProjs = projs;
-    // if will be added dynamiclly   _saveprojsToStorage();
 }
-
 
 function _createProj(projData) {
 
-    var date = new Date();
+    var date = new Date().toLocaleDateString();
+    var lablesStr = projData.lables.join(', ');
+    console.log(lablesStr)
     var modal =
     {
         id: projData.id,
@@ -37,7 +33,7 @@ function _createProj(projData) {
         desc: projData.desc,
         url: 'img/portfolio/' + projData.id + '.jpg',
         publishedAt: date,
-        labels: projData.lales,
+        labels: lablesStr,
         gameUrl: projData.gameUrl
     };
     return modal;

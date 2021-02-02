@@ -1,6 +1,4 @@
 
-
-
 function initCa(){
     renderProjs()
 }
@@ -36,7 +34,7 @@ function openModal(projId){
     document.querySelector('.portfolio-modal .img-fluid').src = proj.url;
     document.querySelector('.portfolio-modal .my-desc').textContent = proj.desc;
     document.querySelector('.my-date').textContent = proj.publishedAt;
-    document.querySelector('.my-lables').textContent = proj.lables;
+    document.querySelector('.my-lables').textContent = proj.labels;
     
     $('#open-game-id').click(function () {
         window.open(proj.gameUrl);
@@ -46,7 +44,6 @@ function openModal(projId){
 }
 
 function onOpenCV(){
-    console.log('HIII');
     window.open("cv/cv.pdf");
 }
 
