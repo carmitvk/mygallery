@@ -787,21 +787,21 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 .my-proj{
-    background-color: rgb(231, 238, 237);
+    /* background-color: rgb(231, 238, 237); */
     height: 100%;
     /* width: 33vw; */
-    border-radius: 12px;
+    /* border-radius: 12px; */
     align-items: center;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     /* display:flex;
     flex-wrap: nowrap; */
 }
 .my-proj-img{
-    margin-top: 2px !important;
+    /* margin-top: 2px !important; */
 }
 .portfolio-hover{
     align-items: center;
-    margin-top: 2px !important;
+    /* margin-top: 2px !important; */
 
 }
 
@@ -814,7 +814,9 @@ footer {
 
   .img-fluid{
 
-      height: 120px;
+      height: 260px;
+      width: 100%;
       text-align: center;
-      margin: auto;      
+      margin: auto;
+      object-fit: fill;     
   }
