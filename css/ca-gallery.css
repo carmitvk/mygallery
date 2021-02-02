@@ -1,8 +1,8 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    /* background-color: #97c4c7 */
-    background-image: 'img/portfolio/computer2.jpg';
+    background-color: #27916e;
+    background-image: url('img/portfolio/computer2.jpg');
     background-attachment:fixed;
 }
 p {
@@ -195,7 +195,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/portfolio/green.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
