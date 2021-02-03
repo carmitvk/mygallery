@@ -5,6 +5,7 @@ body {
     background-image: url('img/portfolio/computer2.jpg');
     background-attachment:fixed;
 }
+
 p {
     line-height: 1.75;
 }
@@ -792,22 +793,12 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 .my-proj{
-    /* background-color: rgb(231, 238, 237); */
     height: 100%;
-    /* width: 33vw; */
-    /* border-radius: 12px; */
     align-items: center;
-    /* border: 1px solid gray; */
-    /* display:flex;
-    flex-wrap: nowrap; */
 }
-.my-proj-img{
-    /* margin-top: 2px !important; */
-}
+
 .portfolio-hover{
     align-items: center;
-    /* margin-top: 2px !important; */
-
 }
 
 footer {
@@ -825,3 +816,7 @@ footer {
       margin: auto;
       object-fit: fill;     
   }
+
+  #page-top{
+    background-color: #468a73;
+}
